@@ -1,28 +1,20 @@
-<!--
-===============================================================================
-OceanApocalypseStudios Pull Request Template
-===============================================================================
+## Before you continue
+Before submitting your pull request, please check all the boxes that apply:
 
-To handle the limitation of only having one Pull Request Template per repository,
-below you can find two templates:
+- [ ] I have read the project's contributing guidelines.
+- [ ] My code follows the project's coding style and conventions _(if applicable)_.
+- [ ] I have added tests that prove my fix is effective or that my feature works _(if applicable)_.
+- [ ] I have ensured that my code passes all existing tests.
+- [ ] I have updated the documentation accordingly _(if applicable)_.
+- [ ] I have checked that my changes do not introduce new warnings or errors.
+- [ ] I have kept my pull request focused on a single feature or fix.
+- [ ] I have provided a clear and descriptive title and description for my pull request.
 
->>> Uncomment the one that suits your PR best!  
-- One for new features  
-- One for typo/micro-changes  
+**OR**
 
-Thanks for your contribution.
--->
-
-
----
-
-<!--
-===============================================================================
-=> Feature Pull Request — OceanApocalypseStudios
-===============================================================================
--->
-
-<!--
+- [ ] This is a minor fix or change that does not require the full template below.  
+  (e.g., "Fix typo in README", "Correct label in UI", etc.)  
+  If so, please fill out the section at the bottom of this template and delete the rest.
 
 ## Summary
 Briefly describe the feature this pull request adds or improves.
@@ -43,23 +35,15 @@ List the main changes or additions made:
 ## Additional Notes
 Include anything else relevant: screenshots, known issues, or follow-ups.
 
-## Review
-Delete this section after you're finished reviewing your PR.
+***
 
-- [ ] Please make sure your code follows the project conventions.  
-- [ ] Keep your PR focused — one feature per PR.  
-- [ ] Thanks for helping us grow this open-source project!
+Thank you for your contribution!
 
--->
+**Clear everything below this line if not submitting a minor fix or change only.**
 
+***
 
----
-
-
-<!--
-===============================================================================
-=> Typo / Micro Fix Pull Request — OceanApocalypseStudios
-===============================================================================
+**Clear everything above this line (except the checkbox section) if submitting a minor fix or change only.**
 
 ## Summary
 What minor fix are you submitting?  
@@ -73,5 +57,3 @@ List the files/lines you changed:
 ## Notes
 - No logic or behavior changes included.
 - This PR is safe to merge without functional regression.
-
--->
