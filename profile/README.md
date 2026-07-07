@@ -5,8 +5,8 @@ We're a small indie gamedev studio, with the love for **Open Source** in mind. W
 You can contribute to any of our projects, as long as you respect the guidelines to do so, based on the repository you wish to contribute to.
 
 ## 👉 You might want to start with this
-<!-- - [**Atlantic SDK for C#:**](https://github.com/OceanApocalypseStudios/AtlanticCSharp) Our very own 2D game development SDK for C#. -->
 - [**RSML:**](https://github.com/OceanApocalypseStudios/RedSeaMarkupLanguage) Our very own cross-platform markup language designed to solve system code paths.
+- [**MurkyMarshParser:**](https://github.com/OceanApocalypseStudios/MurkyMarshParser) Our performant solution that simplifies parsing binary files.
 
 <!--
 
