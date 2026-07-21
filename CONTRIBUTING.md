@@ -35,5 +35,5 @@ Below, you'll find instructions on how to contribute, ensuring respect and effec
 Thanks for assisting us in building great open-source software!
 
 <div align="right">
-– <strong>Matthew</strong> and <strong>Norb</strong> @ <strong>OceanApocalypseStudios</strong>
+– <strong>Matthew</strong> @ <strong>OceanApocalypseStudios</strong>
 </div>
