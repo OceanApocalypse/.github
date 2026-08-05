@@ -1,12 +1,11 @@
-# 🌊 OceanApocalypseStudios
-We're a small indie gamedev studio, with the love for **Open Source** in mind. We make our own engines and SDKs, because of the increased flexibility when making one.
+# 🌊 Ocean Apocalypse
+We're a small open-source organization! We make libraries, general-purpose software and games!
 
 ## 🧡 Contribution Guide
 You can contribute to any of our projects, as long as you respect the guidelines to do so, based on the repository you wish to contribute to.
 
 ## 👉 You might want to start with this
-- [**RSML:**](https://github.com/OceanApocalypseStudios/RedSeaMarkupLanguage) Our very own cross-platform markup language designed to solve system code paths.
-- [**MurkyMarshParser:**](https://github.com/OceanApocalypseStudios/MurkyMarshParser) Our performant solution that simplifies parsing binary files.
+- [**RSML:**](https://github.com/OceanApocalypse/RedSeaModernLanguage) Our very own cross-platform DSL designed to solve system code paths.
 
 <!--
 
