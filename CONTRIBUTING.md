@@ -1,7 +1,7 @@
-# Contribution Guideline for OceanApocalypseStudios Projects
+# Contribution Guideline for Ocean Apocalypse Projects
 We would like to thank you for your interest in contributing to our open-source projects.
 
-At OceanApocalypseStudios, we're focused on OSS-first software, but, as a duo, it's hard to maintain all of our repositories. That way, we value contributions a lot.
+At Ocean Apocalypse, we're focused on FOSS-first software, but, as a small organization, it's hard to maintain all of our repositories. That way, we value contributions a lot.
 
 Below, you'll find instructions on how to contribute, ensuring respect and effectiveness.
 
@@ -12,7 +12,7 @@ Below, you'll find instructions on how to contribute, ensuring respect and effec
 - Contributions must **not** be made via the use of AI and/or LLMs. For more information on why we have added this rule, click [here](https://codeberg.org/ethical-foss/open-slopware/src/branch/main/why_not_llms.md).
 - Contributions can be made via the use of tools like GitHub's Dependabot and code quality tools, as long as they don't violate the above rule. 
 - Pull requests, issues, documentation changes and feedback are all forms of contributions we accept.
-- Contributions must follow OceanApocalypseStudios' [conventions](https://github.com/OceanApocalypseStudios/conventions), if applicable.
+- Contributions must follow OceanApocalypse' [conventions](https://github.com/OceanApocalypse/conventions), if applicable.
 - Contributions should inform of licensing issues, if applicable.
 
 ***
@@ -27,7 +27,6 @@ Below, you'll find instructions on how to contribute, ensuring respect and effec
 
 ## What is not accepted
 - We do **not** accept AI or LLM contributions, for reasons stated above.
-- We do **not** accept requests to join OceanApocalypseStudios.
 - Closed-source projects are **not** open to discussion or contributions, due to their nature.
 
 ***
@@ -35,5 +34,5 @@ Below, you'll find instructions on how to contribute, ensuring respect and effec
 Thanks for assisting us in building great open-source software!
 
 <div align="right">
-– <strong>Matthew</strong> @ <strong>OceanApocalypseStudios</strong>
+– <strong>Matthew</strong> @ <strong>OceanApocalypse</strong>
 </div>
