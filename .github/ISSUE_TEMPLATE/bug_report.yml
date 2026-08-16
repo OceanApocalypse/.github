@@ -36,8 +36,8 @@ body:
         - "Visual Bug (UI artifacts, invalid characters being displayed, etc.)"
         - "Security Vulnerability - please do NOT report vulnerabilities via public issues"
         - "Other"
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: checkboxes
     id: is-regression
