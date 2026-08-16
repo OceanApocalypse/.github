@@ -1,6 +1,6 @@
 ---
-name: Bug report
-about: Report a problem or unexpected behavior
+name: Bug report [Old]
+about: The old way to report a problem or unexpected behavior. Will be removed eventually.
 title: "Bug: [Title]"
 labels: Bug
 assignees: mf366-dev
