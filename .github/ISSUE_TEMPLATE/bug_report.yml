@@ -43,7 +43,7 @@ body:
     id: is-regression
     attributes:
       label: Is this bug a regression?
-      descrition: "Select the checkbox below if the bugged feature worked fine before but doesn't anymore."
+      description: "Select the checkbox below if the bugged feature worked fine before but doesn't anymore."
       options:
         - label: This bug is a regression.         
 
@@ -128,8 +128,9 @@ body:
 
   - type: input
     id: software-version
-    attributes:
+    validations:
       required: true
+    attributes:
       label: Software version
       description: The software version that was used. You may specify more than one by splitting with a semicolon.
 
