@@ -15,6 +15,7 @@ body:
   - type: checkboxes
     id: checklist
     attributes:
+      label: Checklist
       options:
         - label: "This issue is not a duplicate (it hasn't been reported before)."
           required: true
