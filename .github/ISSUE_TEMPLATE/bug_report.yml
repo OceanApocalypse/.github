@@ -1,0 +1,186 @@
+name: Bug report
+description: Report a problem or unexpected behavior.
+title: "Bug: [Title]"
+type: Bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Thank you for helping us by reporting a bug!**
+        Below, you'll find instructions on how to report it to us.
+
+        ## Before you continue
+        Before submitting a bug report, please check all the boxes that apply.
+        
+  - type: checkboxes
+    id: checklist
+    attributes:
+      options:
+        - label: "This issue is not a duplicate (it hasn't been reported before)."
+          required: true
+        - label: "This issue is strictly a bug report and does not include feature requests or generic questions."
+          required: true
+        - label: "I am using a supported version of the software in question."
+        - label: "This issue can be reproduced with supported versions of the software."
+        - label: "The bug is directly caused by the software and not by your environment or setup."
+        - label: "I have provided all the required information."
+          required: true
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: What kind of bug is this?
+      description: Select the option that best describes what kind of bug this is.
+      options:
+        - "Generic Bug"
+        - "Visual Bug (UI artifacts, invalid characters being displayed, etc.)"
+        - "Security Vulnerability - please do NOT report vulnerabilities via public issues"
+        - "Other"
+      validations:
+        required: true
+
+  - type: checkboxes
+    id: is-regression
+    attributes:
+      label: Is this bug a regression?
+      descrition: "Select the checkbox below if the bugged feature worked fine before but doesn't anymore."
+      options:
+        - label: This bug is a regression.         
+
+  - type: markdown
+    attributes:
+      value: |
+        ***
+        ## Description
+        A description of a bug should be clear and concise and shouldn't include overly technical discussion.
+
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: "Please describe the bug."
+      placeholder: "Clicking on `File > Save As` crashes the application."
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Bug severity
+      description: Select the severity of the bug.
+      options:
+        - Critical (causes a complete failure of the software or a major feature
+        - Major (significantly impairs functionality but there are workarounds)
+        - Minor (causes minor issues or incoveniences)
+        - Trivial (either a cosmetic issue or something that does not affect functionality)
+
+  - type: markdown
+    attributes:
+      value: |
+        ***
+        ## Steps to reproduce
+        Explain, step-by-step, how to reproduce this bug in a supported version of the software.
+
+  - type: textarea
+    id: steps-repr
+    validations:
+      required: true
+    attributes:
+      label: "Please enter the steps to reproduce the bug."
+      value: |
+        1. Open menu '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. Click on '...'
+        5. App crashes
+
+  - type: markdown
+    attributes:
+      value: |
+        ***
+        ## Expected behavior
+        A description of the expected behavior should be clear and concise and shouldn't include overly technical discussion.
+
+  - type: textarea
+    id: expected-behavior
+    validations:
+      required: true
+    attributes:
+      label: "Please describe what was expected to happen when following the reproduction instructions above."
+      placeholder: "The document would be saved."
+
+  - type: markdown
+    attributes:
+      value: |
+        ***
+        ## Screenshots
+        If applicable, you might want to add, in a comment, screenshots to help explain your problem.
+        ***
+        ## Environment
+        Knowing your environment setup is important in order for us to be able to offer better support and pinpoint to where the bugs occur with added ease.
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      description: The operating system you used.
+      options: [Windows, Linux, macOS, FreeBSD, Android, iOS, Other]
+      multiple: true
+
+  - type: input
+    id: software-version
+    attributes:
+      required: true
+      label: Software version
+      description: The software version that was used. You may specify more than one by splitting with a semicolon.
+
+  - type: textarea
+    id: additional-env-info
+    attributes:
+      label: Additional environment information
+      description: Use this field to further describe your environment.
+      placeholder: "You may include information such as your browser, your editor, etc. Only add what's applicable."
+
+  - type: markdown
+    attributes:
+      value: |
+        ***
+        ## Additional context
+        Add any other context about the problem in this section.
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Add any other context about the problem here.
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: If applicable, add related logs in here.
+      render: plaintext
+
+  - type: textarea
+    id: related-items
+    attributes:
+      label: Related items
+      description: If applicable, list any related issues or pull requests.
+      placeholder: "Instead of pasting links, you can type # followed by the item number (such as #123)."
+
+  - type: markdown
+    attributes:
+      value: |
+        ***
+        ## Possible solution
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: If you have a possible solution or workaround, please describe it here.
+      placeholder: Running the software in compatibility mode.
+
+  - type: markdown
+    attributes:
+      value: |
+        ***
+        Thank you for taking the time to report a bug!
+        Your feedback is very important as it helps us improve our software.
