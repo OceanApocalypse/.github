@@ -24,7 +24,7 @@ At Ocean Apocalypse, we use CI for building, testing, analyzing and, sometimes, 
 ## DependaBot
 - **Schedule for either UTC, WET, WEST or `Europe/Lisbon` (or equivalent timezones, such as `Europe/London`).** If you want to secure the configuration, set it to a timezone that doesn't vary with DLS.
 - **Schedule either early (06:00-07:00), in the evening (18:00-19:00) or late (22:00).**
-- **Schedule according to project dimension.** If your project is considered big or pulls a lot of depencies, check on 3 days per week. If slightly smaller, only bother checking twice per week. If even smaller, check only once per week (preferable on Wednesday).
+- **Schedule according to project dimension.** If your project is considered big or pulls a lot of dependencies, check on 3 days per week. If slightly smaller, only bother checking twice per week. If even smaller, check only once per week (preferable on Wednesday).
 
-- > [!NOTE]
-  > Good patterns are `MON,WED,FRI`, `TUE,THU` and `WED`. Avoid scheduling on weekends.
+> [!TIP]
+> Good patterns are `MON,WED,FRI`, `TUE,THU` and `WED`. Avoid scheduling on weekends.
