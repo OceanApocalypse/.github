@@ -1,0 +1,158 @@
+name: Feature proposal
+description: Suggest a new idea or enhancement.
+title: "Feature: [Title]"
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Thank you for recommending us a new feature or enhancement!**
+        Below, you'll find instructions on how to explain it to us.
+
+        ## Before you continue
+        Before submitting this proposal, please check all the boxes that apply.
+        
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: "This feature is not a duplicate (it hasn't been proposed before)."
+          required: true
+        - label: "This feature would be globally useful and not specific to my use case."
+          required: true
+        - label: "This feature aligns with the project's goals and scope."
+          required: true
+        - label: "This feature can be realistically implemented given current resources."
+          required: true
+        - label: "This feature is not already achievable through existing functionality or plugins."
+          required: true
+        - label: "I have considered potential downsides and challenges of implementing this feature."
+        - label: "I have provided all the required information."
+          required: true
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: What kind of feature is this?
+      description: Select the option that best describes what kind of feature this is.
+      options:
+        - "Feature - new functionality"
+        - "Enhancement - improvements on existing functionality"
+        - "Other"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: was-available
+    attributes:
+      label: Was this feature previously available?
+      description: "Select the checkbox below if the feature existed in a previous version of the software and got removed."
+      options:
+        - label: This feature existed before.         
+
+  - type: markdown
+    attributes:
+      value: |
+        ***
+        ## Description
+        A description of the feature should be clear and concise and shouldn't include overly technical discussion.
+        It should state the goal/idea behind said feature.
+
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: "Please describe the feature."
+      placeholder: "The ability for plugins to save documents under a specific encoding."
+
+  - type: markdown
+    attributes:
+      value: |
+        ***
+        ## Original Problem
+        Explain what problem this feature solves and why it's important to solve it.
+
+  - type: textarea
+    id: problem
+    validations:
+      required: true
+    attributes:
+      label: "Please describe the problem."
+      placeholder: "Plugins can't manipulate encodings without resorting to hacks and sketchy workarounds."
+
+  - type: markdown
+    attributes:
+      value: |
+        ***
+        ## Implementation
+        How would this feature work, exactly? Use this section to describe the implementation details and any technical considerations.
+
+  - type: textarea
+    id: implementation
+    validations:
+      required: true
+    attributes:
+      label: "Please describe how the feature would work."
+      placeholder: "Since a method already exists to save with a specific encoding, all that needs to be done is expose it safely via the plugin SDK."
+
+  - type: markdown
+    attributes:
+      value: |
+        ***
+        ## Alternatives
+        Among possible alternatives to this feature, what makes this one the best one?
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Please describe why this proposal is the best among alternatives."
+      placeholder: "Creating a specific method for plugins to use would litter the codebase."
+
+  - type: markdown
+    attributes:
+      value: |
+        ***
+        ## Benefits and drawbacks
+        What are the advantages of implementing this feature and how can it potentially lead to challenges and downsides?
+        Additionally, who would benefit the most from this feature?
+
+  - type: textarea
+    id: considerations
+    attributes:
+      label: "Please describe the benefits and potential drawbacks."
+      placeholder: "It would allow plugin authors to work with encodings without having to leave the API context."
+
+  - type: markdown
+    attributes:
+      value: |
+        ***
+        ## Screenshots and examples
+        If applicable, you might want to add, in a comment, screenshots or mockups to help explain the feature.
+
+  - type: markdown
+    attributes:
+      value: |
+        ***
+        ## Additional context
+        Add any other context about the feature in this section.
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Add any other context about the feature here.
+
+  - type: textarea
+    id: related-items
+    attributes:
+      label: Related items
+      description: If applicable, list any related issues or pull requests.
+      placeholder: "Instead of pasting links, you can type # followed by the item number (such as #123)."
+
+  - type: markdown
+    attributes:
+      value: |
+        ***
+        Thank you for taking the time to propose a new feature!
+        Your feedback is very important as it helps us improve our software.
