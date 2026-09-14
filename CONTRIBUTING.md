@@ -10,7 +10,7 @@ We expect contributors to be respectful and civil at all times.
 
 1. Contributions must respect the project's guidelines and scope.
 2. Contributions must follow Ocean Apocalypse's [LLM Policy](#llm-policy).
-3. Contributions must follow Ocean Apocalypse's [CI Policy].
+3. Contributions must follow Ocean Apocalypse's [CI Policy](CI.md).
 4. Contributions can be made via the use of code quality tools, as long as they don't violate the LLM Policy.
 5. Pull requests, issues, documentation changes and feedback are all forms of contributions we accept.
 6. Contributions must follow Ocean Apocalypse's [conventions](https://github.com/OceanApocalypse/conventions), if applicable.
