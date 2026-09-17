@@ -2,6 +2,7 @@
 This repository contains public configurations for our GitHub profile, such as:
 - [Profile page](profile/README.md)
 - [Contribution guidelines](CONTRIBUTING.md)
+- [Code of conduct](CODE_OF_CONDUCT.md)
 - [LLM and GenAI policy](CONTRIBUTING.md) _(including the [version for AI systems](.NO-AI.md))_
 - [CI policy](CI.md) for organization members
 
