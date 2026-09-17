@@ -1,11 +1,12 @@
 # 🌊 Ocean Apocalypse
-We're a small open-source organization! We make libraries, general-purpose software and games!
+We're a small FOSS-first organization! We make libraries, software and games!
 
 ## 🧡 Contribution Guide
-You can contribute to any of our projects, as long as you respect the guidelines to do so, based on the repository you wish to contribute to.
+You can contribute to any of our projects, as long as you respect the guidelines to do so, based on the repository you wish to contribute to. The general guidelines apply to the majority of our repositories and are available [here](../CONTRIBUTING.md).
 
-## 👉 You might want to start with this
-- [**RSML:**](https://github.com/OceanApocalypse/RedSeaModernLanguage) Our very own cross-platform DSL designed to solve system code paths.
+## 👉 Our Main Projects
+- [**The waveIDE Project:**](https://github.com/OceanApocalypse/waveIDE) Our very own FLOSS code editor, where telemetry is not a toggle: it simply doesn't exist.
+- [**The Red Sea Project:**](https://github.com/OceanApocalypse/RedSeaModernLanguage) Our very own cross-platform DSL and engine designed to solve system code paths.
 
 <!--
 
